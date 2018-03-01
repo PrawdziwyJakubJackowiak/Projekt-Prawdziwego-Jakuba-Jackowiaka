@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="../css/lokacjastartowa.css" type="text/css" />
+	<link rel="stylesheet" href="../css/gracz.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="../js/jquery.js"></script>
+	<script src="../js/lokacjastartowa.js"></script>
+	<script src="../js/statystyki.js"></script>
+	<script src="../js/chodzenie.js"></script>
+	<script src="../js/wyjmowanie.js"></script>
+	<script src="../js/item_info.js"></script>
+	<script src="../js/przedmioty.js"></script>
+	<script src="../js/zakladanie.js"></script>
+	<script src="../js/zdejmowanie.js"></script>
+	<script src="../js/wyrzucanie.js"></script>
+	<script src="../js/wyczysc_chat.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="chat">
+			<div id="tekst_1"></div>
+			<div id="tekst_2" onclick="wyczysc_chat(); zakladanie(zakladany_item); zdejmowanie(zdejmowany_item);"></div>
+			<div id="tekst_3" onclick="wyrzucanie(wyrzucany_item);"></div>
+		</div>
+		<div id="game">
+			<div id="map"></div>
+		</div>
+		<div id="info">
+			<div id="nick">MILO.JEZ</div>
+			<div class="postac">
+				<div id="helm" class="eq pusty"></div>
+				<div id="pierek" class="eq pusty"></div>
+				<div id="naszyj" class="eq pusty"></div>
+				<div id="rekawice" class="eq pusty"></div>
+				<div id="bron" class="eq pusty"></div>
+				<div id="zbroja" class="eq pusty"></div>
+				<div id="tarcza" class="eq pusty"></div>
+				<div id="buty" class="eq pusty"></div>
+			</div>
+			<div class="postac">
+				<div class="staty hp">HP</div>
+				<div class="staty exp">EXP</div>
+				<div class="staty dmg">DMG</div>
+				<div class="staty def">DEF</div>
+				<div class="staty kasa">$$$</div>
+			</div>
+			<div id="plecak"></div>
+		</div>
+	</div>
+</body>
+</html>

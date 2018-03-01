@@ -1,0 +1,141 @@
+body{
+	background-color: #000000;
+}
+
+#container{
+	width: 1370px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#chat{
+	width: 200px;
+	height: 750px;
+	margin-top: 100px;
+	float: left;
+	border-top: 5px solid #FFFFFF;
+	border-left: 5px solid #FFFFFF;
+	border-bottom: 5px solid #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: center;
+	background-color: #084004;
+}
+
+#tekst_1{
+
+	margin-top: 10px;
+	border-bottom: 3px solid #FFFFFF;
+	display: none;
+}
+
+#tekst_2{
+	margin-top: 100px;
+	border-top: 3px solid #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	display: none;
+}
+
+#tekst_3{
+	margin-top: 30px;
+	border-top: 3px solid #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	display: none;
+}
+
+#game{
+	width: 750px;
+	height: 750px;
+	margin-top: 100px;
+	overflow: auto;
+	border: 5px solid #FFFFFF;
+	float: left;
+}
+
+#map{
+	width: 750px;
+	height: 500px;
+	margin-top: 125px;
+	float: left;
+}
+
+#info{
+	height: 750px;
+	width: 400px;
+	margin-top: 100px;
+	float: left;
+	border-right: 5px solid #FFFFFF;
+	border-top: 5px solid #FFFFFF;
+	border-bottom: 5px solid #FFFFFF;
+	background-color: #084004;
+}
+.tile{
+	width: 50px;
+	height: 50px;
+	float: left;
+	/*border: 1px solid; */
+}
+
+.sciana{
+	background-image: url("../img/lokacjastartowa/sciana.png");
+}
+
+.podloga{
+	background-image: url("../img/lokacjastartowa/podloga.png");
+}
+
+.wyjscie{
+	background-image: url("../img/lokacjastartowa/przejscie1.png");
+}
+
+.piwnica{
+	background-image: url("../img/lokacjastartowa/piwnicaprzejscie.png");
+}
+
+.lozkogora{
+	background-image: url("../img/lokacjastartowa/lozkogora.png");
+}
+
+.lozkodol{
+	background-image: url("../img/lokacjastartowa/lozkodol.png");
+}
+
+.skrzynka{
+	background-image: url("../img/lokacjastartowa/podloga.png"); 
+}
+
+.npc{
+	background-image: url("../img/lokacjastartowa/podloga.png"); 
+}
+
+#img{
+	margin-left: 5px;
+	position: absolute;
+}
+
+#npcimg{
+	position: absolute;
+}
+
+#graczimg{
+	position: absolute;
+}
+
+#id1{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#id2{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#id3{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}

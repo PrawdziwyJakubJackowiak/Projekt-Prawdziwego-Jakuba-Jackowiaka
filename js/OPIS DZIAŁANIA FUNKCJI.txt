@@ -1,0 +1,16 @@
+WIELKI OPIS DZIAŁANIA KAŻDEJ FUNKCJI ŻEBY NIE POGUBIĆ SIĘ W CAŁYM GALIMATIASIE JAKI POWSTAJE:
+
+1. lokacjastartowa.js
+Początkowa lokacja gdzie gracz się respi, opisuje grafikę lokacji, npc'a, oraz skrzynkę(array w skrzynce definiuje jakie przedmioty się w niej znajdują). Definiuje również gdzie blokuje się chodzenie.
+
+2. statystyki.js
+Początkowe staty gracza + statystyki przedmiotów do funkcji zdejmowania i zakładania(oraz pewnie hp do walk pojedzie) oraz ich zmiana zakładaniem lub zdejmowaniem przedmiotów(lub walką).
+
+3. przedmioty.js
+Spis wszystkich itemów, parametry zgodznie z klasyfikacją w komentarzu.
+
+4. chodzenie.js
+TYLKO chodzenie, blokowanie się na ścianach itd jest definiowane w lokacjach!
+
+5. wyjmowanie.js
+Funkcja do wyjmow
